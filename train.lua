@@ -478,7 +478,7 @@ function eval_val_split(epoch, randomize_ap)
         gts = all_gts[vidName]
         dets = all_dets[vidName]
         confs = all_confs[vidName]
-        confs = torch.
+        
         for di = 1,#dets do
             local det_start = dets[di][1]/5 -- at 5 fps
             local det_end = dets[di][2]/5
